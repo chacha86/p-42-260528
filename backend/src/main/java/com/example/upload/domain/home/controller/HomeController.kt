@@ -12,7 +12,7 @@ import java.net.InetAddress.getLocalHost
 @Controller
 class HomeController {
 
-    @Operation(summary = "API 서버 시작페이지", description = "API 서버 시작페이지입니다. api 호출은 인증을 해주세요")
+    @Operation(summary = "API 서버 시작페이지", description = "API 서버 시작페이지입니다요. api 호출은 인증을 해주세요")
     @GetMapping(value = ["/"], produces = ["text/plain;charset=UTF-8"])
     @ResponseBody
     fun home(): String {
